@@ -23,7 +23,7 @@ public:
         if (row < rows && col < cols) {
             return data[row][col];
         }
-        return 0; // Повертаємо 0, якщо індекс виходить за межі
+        return 0; 
     }
 
     // Метод для заповнення матриці
